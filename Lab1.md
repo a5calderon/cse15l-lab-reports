@@ -24,7 +24,6 @@ For those who have done this before, it should look like this:
 Newcomers, however, will be presented with some text that states: `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? `
-In this case, press yes. 
-
-
+In this case, press yes. This will lead you to something like the image above.
+And that's it ! You successfully connected your terminal to a computer in basement (the server). 
 ## Step Three:Trying Some Commands 
