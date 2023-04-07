@@ -27,3 +27,13 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? `
 In this case, press yes. This will lead you to something like the image above.
 And that's it ! You successfully connected your terminal to a computer in basement (the server). 
 ## Step Three:Trying Some Commands 
+While there are many commands we CAN try, I am going to present here the ones I found most interesting. 
+1. ls -a 
+
+This looks like a list of files 
+3. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+
+This outputs "Hello!", which was cool because I don't have a file that has this text on my end (so it just helped with the concept that I was connected to a computer in the basement). 
+5. ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz, where the zz is one of the other group members’ username (my personal favorite) 
+
+This one outputs permission denied! 
