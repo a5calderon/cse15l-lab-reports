@@ -36,4 +36,4 @@ This outputs "Hello!", which was cool because I don't have a file that has this 
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-06%20at%205.32.35%20PM.png)
 5. ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz, where the zz is one of the other group members’ username (my personal favorite) 
 This one outputs permission denied! 
-![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-06%20at%205.32.35%20PM.png)
+![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-06%20at%205.33.09%20PM.png)
