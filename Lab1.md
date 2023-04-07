@@ -28,12 +28,19 @@ In this case, press yes. This will lead you to something like the image above.
 And that's it ! You successfully connected your terminal to a computer in basement (the server). 
 ## Step Three:Trying Some Commands 
 While there are many commands we CAN try, I am going to present here the ones I found most interesting. 
-1. ls -a 
+1. `ls -a`
 This looks like a list of files 
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-06%20at%205.31.39%20PM.png)
-3. cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+3. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 This outputs "Hello!", which was cool because I don't have a file that has this text on my end (so it just helped with the concept that I was connected to a computer in the basement). 
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-06%20at%205.32.35%20PM.png)
-5. ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz, where the zz is one of the other group members’ username (my personal favorite) 
+5. `ls /home/linux/ieng6/cs15lsp23/cs15lsp23zz`, where the zz is one of the other group members’ username (my personal favorite) 
 This one outputs permission denied! 
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-06%20at%205.33.09%20PM.png)
+
+## Step Four: Log Out 
+An easy way to log out is to press Control and D.
+```
+[cs15lsp23du@ieng6-202]:~:24$ logout
+Connection to ieng6.ucsd.edu closed.
+```
