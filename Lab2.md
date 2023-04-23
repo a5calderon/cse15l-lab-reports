@@ -36,11 +36,10 @@ class StringServer {
     }
 }
 ```
----------
+
 
  Screenshots: using /add-message: 
- 
- STARTING:
+
  ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%202.08.45%20PM.png)
  
  1) which methods in code are being called:
