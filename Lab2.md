@@ -79,7 +79,8 @@ This URI url now contains “/add-message?s=hi”. Because of this, the conditio
 	
 ---------
 
-```http://localhost:1759/add-message?s=hey```:
+```http://localhost:1759/add-message?s=hey``` :
+	
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%202.10.03%20PM.png)
 
 1) which methods in code are being called:
@@ -94,26 +95,32 @@ This method’s argument is a URI url. This URI url now contains “/add-message
 	
 	
 The string “running” is not empty, so it was crucial to make sure  it updates the values instead of rewriting running (running=running +”\n” + parameters[1]). As a result, running now is 
+	
 ```
 \n hi 
 \n hey
 ```
+	
 ---------
 	
-```http://localhost:1759/add-message?s=hello there```: 
+```http://localhost:1759/add-message?s=hello there``` : 
+	
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%202.10.12%20PM.png)
  
 In this case,  parameters=[/add-message?s, hello there] and running now is 
+	
 ```
 \n hi 
 \n hey
 \n hello there
 ```
+	
 ---------
 	
 ## Part Two:One bug from lab 3 : ReverseInPlace
 
 A failure-inducing input for the buggy program (as a J unit test):
+	
 ```
 @Test 
 public void testReverseInPlaceWithLongerList() {
@@ -128,8 +135,11 @@ public void testReverseInPlaceWithLongererList() {
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 4, 3, 2, 1}, input1 );// actual: {4,3,3,4}
 	}
+	
   ```
+	
 Any input that doesn't induce a failure (as a Junit test):
+	
 ```
 @Test 
 public void testReverseInPlace() {
@@ -140,6 +150,7 @@ public void testReverseInPlace() {
  ```
 
 The symptom, as the output of running the tests:
+	
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%201.03.47%20PM.png)
 
 The bug (before changes and after changes) :
