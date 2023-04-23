@@ -36,6 +36,7 @@ class StringServer {
     }
 }
 ```
+---------
 
  Screenshots: using /add-message: 
  
