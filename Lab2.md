@@ -55,11 +55,13 @@ This creates the port by using the user’s array of numbers (an argument for th
  4) How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 
-Once the user opens the link, they are met with a screen with the text "welcome! use this framework ' /add-message?s=<string> ' to add strings to a running list:)" , which makes sense because the current url is simply ```http://localhost:1759``` .It currently does not contain "/add-message"
+Once the user opens the link, they are met with a screen with the text "welcome! use this framework ' /add-message?s=<string> ' to add strings to a running list:)" , which makes sense because the current url is simply ```http://localhost:1759``` . It currently does not contain "/add-message"
 
 
 ---------
- ```http://localhost:1759/add-message?s=hi```:
+	
+ ```http://localhost:1759/add-message?s=hi``` :
+	
  ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%202.09.53%20PM.png)
  
  1) which methods in code are being called:
@@ -76,6 +78,7 @@ This URI url now contains “/add-message?s=hi”. Because of this, the conditio
  And because running is currently an empty string returns simply ```\n hi``` (of course the \n is not visible).
 	
 ---------
+
 ```http://localhost:1759/add-message?s=hey```:
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%202.10.03%20PM.png)
 
@@ -96,6 +99,7 @@ The string “running” is not empty, so it was crucial to make sure  it update
 \n hey
 ```
 ---------
+	
 ```http://localhost:1759/add-message?s=hello there```: 
 ![Image](https://raw.githubusercontent.com/a5calderon/cse15l-lab-reports/main/Screen%20Shot%202023-04-23%20at%202.10.12%20PM.png)
  
@@ -106,6 +110,7 @@ In this case,  parameters=[/add-message?s, hello there] and running now is
 \n hello there
 ```
 ---------
+	
 ## Part Two:One bug from lab 3 : ReverseInPlace
 
 A failure-inducing input for the buggy program (as a J unit test):
@@ -140,6 +145,7 @@ The symptom, as the output of running the tests:
 The bug (before changes and after changes) :
 
 BEFORE:
+	
 ```
   // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
@@ -148,7 +154,9 @@ BEFORE:
     }
   }
   ```
+				  
 AFTER:
+				  
 ```
  // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
