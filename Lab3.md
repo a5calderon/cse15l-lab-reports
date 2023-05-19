@@ -49,9 +49,9 @@ andreac@Andreas-MacBook-Pro stringsearch-data % find technical/biomed -type d
 technical/biomed
   ```
     
-Explanation: This command line option outputs all the possible directories within a specficied directory. In the first example, the specified directory was "technical", and this output an actual list. However, the second example was technical/biomed , which does not have any other directories within it (just files). As a result, the only directory it gave me was the technical/biomed. This reminds me of ls, only formatted differently (and more conveniently). 
+Explanation: This command line option outputs all the possible directories within a specficied directory. In the first example, the specified directory was "technical", and this output an actual list. However, the second example was technical/biomed , which does not have any other directories within it (just files). As a result, the only directory it gave me was the technical/biomed. This reminds me of ls, only formatted differently (and more conveniently)-- as a result, this may be a useful, quick alternative. 
     
-Source:ChatGPT
+Source:ChatGPT, after asking it "what are some useful "find" commands"
     
 3) Third command line option: find /path/to/directory -name "*.txt" -print
     
@@ -191,7 +191,7 @@ technical/911report/chapter-13.4.txttechnical/911report/chapter-13.5.txttechnica
     
 What is it doing and why is it helpful: This, to me, looked exactly like just doing the same command without the "-print". I'm guessing that in earlier times, the command line without print would actually not print (and that over the years the print just became a default). So, I tried looking for things to do with print, and found -print0. The difference is that it no longer prints the files on different (new) lines or with spaces between the file names . I think it is nice to have options. In the examples, I showed that you can place the asterisk in the end (not just the beginning--which is what was seen in lecture). In addition, the command needs it to be specfic or at least have an asterisk. It is not enough to have part of a name, without an asterisk. 
     
-Source: ChatGPT
+Source: ChatGPT, after asking it "what are some useful "find" commands"
    
 4) Fourth command line option: find /path/to/directory -name "*.txt" -delete
 
