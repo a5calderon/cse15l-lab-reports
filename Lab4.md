@@ -1,7 +1,7 @@
 # **Lab Report 4:  Doing it All from the Command Line**
 ---------
 Task 1) Log into ieng6
-![Image]([https://github.com/a5calderon/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-19%20at%204.28.35%20PM.png)
+![Image](https://github.com/a5calderon/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-19%20at%204.28.35%20PM.png)
 For this step, I simply had to just do : ``` ssh cs15lsp23du@ieng6.ucsd.edu``` (and no password!).
 
 
