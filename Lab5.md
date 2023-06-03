@@ -11,7 +11,7 @@ Detail the symptom you're seeing. Be specific; include both what you're seeing a
 What I am seeing: I am seeing two completely different scores (0/4 and 4/4). 
 What I expected to see: I am expecting for the file to exist but not pass all the tests. There should only be one score, and for this specfic github link, I was expecting to see a score of 2/4. 
 Here is a screenshot of the output:
-![Image](Screen Shot 2023-06-03 at 2.52.23 PM.png)
+![Image](Screen%Shot%2023-06-03%at%2.52.23%PM.png)
 Here are screenshots of my code: 
 
 
