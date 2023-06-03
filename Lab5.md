@@ -15,12 +15,12 @@ What I am seeing: I am seeing two completely different scores (0/4 and 4/4).
 What I expected to see: The file does exist, so I was expecting  the terminal to reflect that. There should only be one score, and for this specfic github link, I was expecting to see a score of 2/4. 
 Here is a screenshot of the output:
 
-![Image](Screen%Shot%2023-06-03%at%2.52.23%PM.png)
+![Image](Screen%20Shot%202023-06-03%20at%202.52.23%20PM.png)
 
 Here are screenshots of my code: 
 
-![Image](Screen%Shot%2023-06-03%at%2.53.42%PM.png)
-![Image](Screen%Shot%2023-06-03%at%2.53.51%PM.png)
+![Image](Screen%20Shot%202023-06-03%20at%202.53.42%20PM.png)
+![Image](Screen%20Shot%202023-06-03%20at%202.53.51%20PM.png)
 
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
